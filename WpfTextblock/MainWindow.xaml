@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfTextblock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTextblock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock TextWrapping="Wrap">
+<Span Foreground="Red">Тарас Шевченко</Span> народився 25 лютого <Span Background="LightGreen">(9 березня)</Span> <Span Foreground="BlueViolet"> 1814 року в<Span TextDecorations="Underline"> селі Моринці</Span>, нині
+<LineBreak/> <Span TextDecorations="Underline">Звенигородського району Черкаської області, Україна</Span> (за тогочасним адмінподілом
+<LineBreak/><Span TextDecorations="Underline">Пединівська волость, Звенигородського повіту Київської губернії</Span>). Був третьою
+<LineBreak/>дитиною <Span TextDecorations="Underline">селян-кріпаків</Span> Григорія Івановича Шевченка і Катерини Якимівни Бойко після 
+<LineBreak/>сестри <Span TextDecorations="Underline">Катерини</Span> (8 <Span TextDecorations="Underline">(20) листопада 1804</Span> — близько <Span TextDecorations="Underline">1848</Span>) та брата Микити (16 (<Span TextDecorations="Underline">28)
+<LineBreak/>травня 1811</Span> — близько <Span TextDecorations="Underline">1870</Span>).</Span>
+<LineBreak/>
+<LineBreak/><Span Background="Purple" Foreground="White" FontSize="15">Згідно з родинними переказами, Тарасові діди й прадіди з батьківського 
+<LineBreak/>боку походили від <Span FontStyle="Oblique">козака</Span> Андрія, який на початку XVIII століття прийшов із
+<LineBreak/><Span TextDecorations="Underline">Запорізької Січі</Span></Span>. <Span Foreground="BlueViolet"><Span FontWeight="Bold">Батьки його матері,</Span> Катерини Якимівни Бойко, були
+<LineBreak/>переселенцями з<Span TextDecorations="Underline"> Прикарпаття.</Span></Span>
+<LineBreak/>
+<LineBreak/><Span Foreground="BlueViolet"><Span TextDecorations="Underline">1816</Span> року сім'я Шевченків переїхала до села Кирилівка (нині <Span FontStyle="Oblique">Шевченкове </Span>
+<LineBreak/>Звенигородського району)<Span TextDecorations="Underline"> Звенигородського повіту</Span>, звідки походив <Span Background="Green">Григорій Іванович</Span>
+<LineBreak/><Span TextDecorations="Underline">травня 1816</Span> року народилася Тарасова сестра <Span FontStyle="Oblique">Ярина,</Span></Span><Span Background="Magenta" Foreground="White"> а 26 січня (<Span TextDecorations="Underline">7 лютого</Span>) 1819
+<LineBreak/>року — сестра Марія. Одного разу малий Тарас пішов шукати «залізні стовпи, що підпирають небо»,
+<LineBreak/>і заблукав у полі. Чумаки, зустрівши хлопця, забрали його з собою й увечері привезли до Кирилівки. 
+<LineBreak/>8 <Span FontStyle="Oblique">(20) березня 1821</Span> року народився Тарасів брат <Span FontStyle="Oblique">Йосиn</Span></Span>      
+        </TextBlock>
+    </Grid>
+</Window>
